@@ -11,7 +11,9 @@ El diseño mantiene una arquitectura modular simple:
 
 
  **`main.py`**  `main()`, `mostrar_menu()`  **Control de Flujo (Vista):** Inicia el gestor, presenta el menú y coordina la interacción del usuario. Usa impresiones básicas para la presentación.
+
  **`modulos/modelo.py`** `class Transaccion`, `class GestorFinanzas`  **Lógica de Negocio (Modelo):** Define `Transaccion` (datos) y `GestorFinanzas`. El gestor maneja la colección de transacciones y realiza el cálculo del saldo. 
+
  **`modulos/utilidades.py`**  `formatear_moneda()`  **Funciones Auxiliares (Soporte):** Proporciona la única función de soporte: **`formatear_moneda`**, que se encarga de dar formato monetario a los valores numéricos para su correcta visualización. 
 
 ## Cómo Ejecutar el Proyecto
@@ -22,5 +24,5 @@ El diseño mantiene una arquitectura modular simple:
 
 Muestra de la interacción con el menú principal y la visualización del saldo actual.
 
-![Captura del Menú Principal](Unidad 1\ProyectoModular\docs\captura1_Modular.png)
-![Captura del Menú Principal](Unidad 1\ProyectoModular\docs\captura2_modular.png)
+![Captura del Menú Principal](captura1_Modular.png)
+![Captura del Menú Principal](captura2_modular.png)
