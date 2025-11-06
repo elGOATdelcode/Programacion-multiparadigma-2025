@@ -4,10 +4,7 @@ Proyecto de un sistema simple de gestión de biblioteca utilizando Python y POO
 
 ## Caracteristicas
 
-Clase: LIbro , usuario que hereda de persona y biblioteca, persona
-Modularidad con codigo dividido en varios modulos
-Documentacion con uso de docstrings y manual de usuario
-Aplicacion funcional: Agregar, listar, prestar, devolver, guardar/cargar. 
+Clase: LIbro , usuario que hereda de persona y biblioteca, persona.Modularidad con codigo dividido en varios modulos.Documentacion con uso de docstrings y manual de usuario.Aplicacion funcional: Agregar, listar, prestar, devolver, guardar/cargar. 
 
 ## Estructura del Código
 
@@ -28,10 +25,10 @@ biblioteca/ ├── main.py # Punto de entrada y menú de usuario. ├── m
 **Demostracion de funcionalidad de la aplicacion**
 
 -Agregar libro
-![agregar libro](docs/agregarlibro.png)
+![agregar libro](agregarlibro.png)
 
 -Ver lista de usuarios
-![listausuarios](docs/listausuarios.png)
+![listausuarios](listausuarios.png)
 
 -Prestar uno de los libros
-![Prestarlibro](docs/Prestarlibro.png)
+![Prestarlibro](Prestarlibro.png)
