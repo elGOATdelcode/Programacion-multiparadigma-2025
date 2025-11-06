@@ -1,0 +1,44 @@
+{
+    "libros": [
+        {
+            "titulo": "Zero to one",
+            "autor": "Peter Thiel",
+            "anio": 2014,
+            "estado": "disponible"
+        },
+        {
+            "titulo": "A New Earth",
+            "autor": "Eckhart Tolle",
+            "anio": 2008,
+            "estado": "disponible"
+        },
+        {
+            "titulo": "Sangre de Campeon",
+            "autor": "Carlos Cuauht\u00e9moc S\u00e1nchez",
+            "anio": 2001,
+            "estado": "disponible"
+        },
+        {
+            "titulo": "prueba1",
+            "autor": "prueba1",
+            "anio": 2000,
+            "estado": "prestado"
+        }
+    ],
+    "usuarios": [
+        {
+            "nombre": "Angel Madrid",
+            "libros_prestados": [
+                "prueba1"
+            ]
+        },
+        {
+            "nombre": "Roberto Martinez",
+            "libros_prestados": []
+        },
+        {
+            "nombre": "usuarioprueba",
+            "libros_prestados": []
+        }
+    ]
+}
