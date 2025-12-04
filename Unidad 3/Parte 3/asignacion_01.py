@@ -16,4 +16,25 @@ def crear_reductor(funcion, valor_inicial):
         return acumulado
     return reductor
 
+def componer(*funciones):
+    def pipeline(data):
+        resultado = data
+        for f in funciones:
+            resultado = f(resultado)
+        return resultado
+    return pipeline
 
+# Pruebas
+numeros = [1, -2, 3, -4, 5, -6, 7, 8, -9, 10]
+
+
+pipeline = componer(
+    crear_filtro(lambda x: x > 0),             
+    crear_transformador(lambda x: x ** 2),     
+    crear_reductor(lambda acc, x: acc + x, 0)  )
+
+
+resultado = pipeline(numeros)
+
+print(f"Lista original: {numeros}")
+print(f"Resultado final: {resultado}") 
